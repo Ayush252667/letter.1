@@ -1,0 +1,173 @@
+body{
+  font-style: arial;
+  background:#ffffff;
+  }
+
+.animation-box {
+  width: 96%;
+  height: 48rem;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.first-text {
+  font-size: 1.5rem;
+  color : #596e79;
+  position: absolute;
+  left: 2rem;
+  top: 5rem;
+  opacity:0;
+  animation-name: dhak1;
+  animation-duration: 9s;
+ 
+}
+.second-text {
+  font-size: 1.5rem;
+  color : #5585b5;
+  position: absolute;
+  top: 8rem;
+  left: 2%;
+  opacity:0;
+  animation-name: dhak2;
+  animation-duration: 13s;
+  animation-delay: 8.5s;
+}
+
+
+.third-text {
+  font-size: 1.5rem;
+  color : #a96851;
+  position: absolute;
+  opacity: 0;
+  left: 2%;
+  top: 7rem;
+  animation-name: dhak3;
+  animation-duration: 22s;
+  animation-delay: 20s;
+  
+
+}
+
+
+.fourth-text {
+  font-size: 1.5rem;
+  color : #005792;
+  position: absolute;
+  opacity: 0;
+  left: 2%;
+  top: 7rem;
+  animation-name: dhak4;
+  animation-duration: 23s;
+  animation-delay: 41.5s;
+}
+
+
+.fifth-text {
+  font-size: 1.5rem;
+  position: absolute;
+  color: #c06c84;
+  left:-1%;
+  top: 7rem;
+  opacity:0;
+  animation-name: dhak5;
+  animation-duration: 9s;
+  animation-delay: 63.5s;
+}
+
+
+
+@keyframes dhak1 {
+  0% {
+    top: -3rem;
+    opacity: 0;
+    
+  }
+
+
+75%{
+  top: 25%;
+  opacity: 1;
+}
+
+100%{
+  opacity: 0;
+}
+}
+
+
+@keyframes dhak2 {
+  0% {
+    top: -3rem;
+    opacity: 0;
+    
+  }
+
+
+75%{
+  top: 25%;
+  opacity: 1;
+}
+
+100%{
+  opacity: 0;
+}
+}
+
+
+@keyframes dhak3 {
+  0% {
+    top: -3rem;
+    opacity: 0;
+    
+  }
+
+
+75%{
+  top: 35%;
+  opacity: 1;
+}
+
+100%{
+  opacity: 0;
+}
+}
+
+
+
+@keyframes dhak4 {
+  0% {
+    top: -3rem;
+    opacity: 0;
+    
+  }
+
+
+75%{
+  top: 35%;
+  opacity: 1;
+}
+
+100%{
+  opacity: 0;
+}
+}
+
+
+@keyframes dhak5 {
+  0% {
+    top: -3rem;
+    opacity: 0;
+    
+  }
+
+
+75%{
+  top: 35%;
+  opacity: 1;
+}
+
+100%{
+  opacity: 0;
+}
+}
